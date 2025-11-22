@@ -38,6 +38,7 @@ Il existe certains sols fait de lave, si le joueur le touche il meurt, l'environ
         self.line = False
         self.gaz = []
         pyxel.load("jeu.pyxres")
+        pyxel.save("jeu.pyxres")
         
     def gravite(self):
         if not self.col_sol():
